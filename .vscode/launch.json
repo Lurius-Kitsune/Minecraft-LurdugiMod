@@ -6,9 +6,9 @@
       "name": "runClient",
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
-      "projectName": "Lurdugi",
+      "projectName": "Lurdugi - Copie",
       "cwd": "${workspaceFolder}\\run",
-      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Deventbus.api.strictRuntimeChecks\u003dtrue -Dforge.enabledGameTestNamespaces\u003dlurdugi -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem -XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
+      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Deventbus.api.strictRuntimeChecks\u003dtrue -Dforge.enabledGameTestNamespaces\u003dexamplemod -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem -XX:HeapDumpPath\u003dMojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump",
       "args": "--launchTarget forge_userdev_client --version MOD_DEV --assetIndex 26 --assetsDir C:\\Users\\Kitsu\\.gradle\\caches\\forge_gradle\\assets --gameDir .",
       "env": {
         "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
@@ -21,10 +21,10 @@
       "name": "runData",
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
-      "projectName": "Lurdugi",
+      "projectName": "Lurdugi - Copie",
       "cwd": "${workspaceFolder}\\run-data",
       "vmArgs": "-Dforge.logging.console.level\u003ddebug -Deventbus.api.strictRuntimeChecks\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem",
-      "args": "--launchTarget forge_userdev_data --assetIndex 26 --assetsDir C:\\Users\\Kitsu\\.gradle\\caches\\forge_gradle\\assets --gameDir . --mod lurdugi --all --output C:\\Users\\Kitsu\\Desktop\\Lurdugi\\src\\generated\\resources --existing C:\\Users\\Kitsu\\Desktop\\Lurdugi\\src\\main\\resources",
+      "args": "--launchTarget forge_userdev_data --assetIndex 26 --assetsDir C:\\Users\\Kitsu\\.gradle\\caches\\forge_gradle\\assets --gameDir . --mod examplemod --all --output \"C:\\Users\\Kitsu\\Desktop\\Lurdugi - Copie\\src\\generated\\resources\" --existing \"C:\\Users\\Kitsu\\Desktop\\Lurdugi - Copie\\src\\main\\resources\"",
       "env": {
         "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
         "MCP_MAPPINGS": "official_1.21.6"
@@ -36,9 +36,9 @@
       "name": "runGameTestServer",
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
-      "projectName": "Lurdugi",
+      "projectName": "Lurdugi - Copie",
       "cwd": "${workspaceFolder}\\run",
-      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Deventbus.api.strictRuntimeChecks\u003dtrue -Dforge.enabledGameTestNamespaces\u003dlurdugi -Djava.net.preferIPv6Addresses\u003dsystem",
+      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Deventbus.api.strictRuntimeChecks\u003dtrue -Dforge.enabledGameTestNamespaces\u003dexamplemod -Djava.net.preferIPv6Addresses\u003dsystem",
       "args": "--launchTarget forge_userdev_server_gametest --gameDir .",
       "env": {
         "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",
@@ -51,9 +51,9 @@
       "name": "runServer",
       "request": "launch",
       "mainClass": "net.minecraftforge.bootstrap.ForgeBootstrap",
-      "projectName": "Lurdugi",
+      "projectName": "Lurdugi - Copie",
       "cwd": "${workspaceFolder}\\run",
-      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Deventbus.api.strictRuntimeChecks\u003dtrue -Dforge.enabledGameTestNamespaces\u003dlurdugi -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem",
+      "vmArgs": "-Dforge.logging.console.level\u003ddebug -Deventbus.api.strictRuntimeChecks\u003dtrue -Dforge.enabledGameTestNamespaces\u003dexamplemod -Dforge.enableGameTest\u003dtrue -Djava.net.preferIPv6Addresses\u003dsystem",
       "args": "--launchTarget forge_userdev_server --gameDir . --nogui",
       "env": {
         "MOD_CLASSES": "${workspaceFolder}\\build\\sourcesSets\\main",

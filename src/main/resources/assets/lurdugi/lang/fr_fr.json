@@ -1,6 +1,5 @@
 {
+    "item.lurdugi.test_block": "§e§n[DEBUG]§r Bloc de Test",
 
-
-
-  "item.lurdugi.test_item": "§e§n[W.I.P]§r Objet de Test"
+    "item.lurdugi.test_item": "§e§n[DEBUG]§r Objet de Test"
 }
