@@ -6,6 +6,7 @@ import java.util.logging.Logger;
 
 import com.luriusfox.lurdugi.registry.BlocksRegistry;
 import com.luriusfox.lurdugi.registry.ItemRegistry;
+import com.luriusfox.lurdugi.registry.TabsRegistry;
 
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
@@ -20,7 +21,8 @@ public final class LurDuGiMod {
 
     private static Vector<DeferredRegister<?>> deferredRegisters = new Vector<DeferredRegister<?>>(
         List.of(ItemRegistry.ITEMS,
-        BlocksRegistry.BLOCKS)
+        BlocksRegistry.BLOCKS,
+        TabsRegistry.CREATIVE_MODE_TABS)
     );
 
     public LurDuGiMod(FMLJavaModLoadingContext _context) {
