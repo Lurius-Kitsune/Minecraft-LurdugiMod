@@ -1,0 +1,17 @@
+{
+    "type" : "minecraft:crafting_shaped",
+    "category" : "misc",
+    "key": {
+        "A" : "lurdugi:sionix_lock",
+        "B" : "lurdugi:luwurius"
+    },
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "result": {
+        "count" : 1,
+        "id" : "lurdugi:sionix"
+    }
+}

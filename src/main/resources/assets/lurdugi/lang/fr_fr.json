@@ -3,5 +3,8 @@
 
     "item.lurdugi.test_block": "§e§n[DEBUG]§r Bloc de Test",
 
-    "item.lurdugi.test_item": "§e§n[DEBUG]§r Objet de Test"
+    "item.lurdugi.test_item": "§e§n[DEBUG]§r Objet de Test",
+    "item.lurdugi.sionix_lock": "Cadena de Sionix",
+    "item.lurdugi.sionix": "§x§F§F§0§0§0§0§oS§x§D§6§0§B§1§4§oi§x§A§C§1§6§2§9§oo§x§8§3§2§2§3§D§on§x§5§9§2§D§5§2§oi§x§3§0§3§8§6§6§ox",
+    "item.lurdugi.luwurius": "§c§l§o§kL§6§l§o§ku§e§l§o§kw§a§l§o§ku§3§l§o§kr§9§l§o§ki§5§l§o§ku§c§l§o§ks"
 }
