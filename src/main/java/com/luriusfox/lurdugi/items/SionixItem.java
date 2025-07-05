@@ -5,11 +5,8 @@ import java.util.function.Consumer;
 
 import org.jetbrains.annotations.Nullable;
 
-import com.luriusfox.lurdugi.registry.ItemRegistry;
 import com.luriusfox.lurdugi.tools.ColorTool;
 
-import net.minecraft.core.component.DataComponents;
-import net.minecraft.network.chat.CommonComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -54,12 +51,14 @@ public class SionixItem extends BaseItem {
         return ColorTool.ComputeStringComponent(super.getName(_stack).getString(), !isGodUser, start, end);
     }
     
+    @SuppressWarnings("deprecation") // TODO REMOVE THIS
     @Override
     public void appendHoverText(ItemStack p_41421_, TooltipContext p_333372_, TooltipDisplay p_396484_,
             Consumer<Component> p_392123_, TooltipFlag p_41424_) {
         // Add custom description
+        p_392123_.accept(ColorTool.ComputeStringComponent("Secret's Item", !isGodUser, start, end));
         p_392123_.accept(ColorTool.ComputeStringComponent(Component.translatable("item.lurdugi.sionix.desc").getString(), !isGodUser, start, end));
-        // TODO Auto-generated method stub
+        // NOTE Find a solution
         super.appendHoverText(p_41421_, p_333372_, p_396484_, p_392123_, p_41424_);
     }
 

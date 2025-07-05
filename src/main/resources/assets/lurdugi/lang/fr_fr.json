@@ -1,11 +1,8 @@
 {
-    "lurdugi_tab": "§e§n[DEBUG]§r LurDuGi",
+    "item.lurdugi.test_block": "§e§n[TESTING]§r Bloc de Test",
 
-    "item.lurdugi.test_block": "§e§n[DEBUG]§r Bloc de Test",
-
-    "item.lurdugi.test_item": "§e§n[DEBUG]§r Objet de Test",
+    "item.lurdugi.test_item": "§e§n[TESTING]§r Objet de Test",
     "item.lurdugi.sionix_lock": "Cadena de Sionix",
     "item.lurdugi.sionix": "{b}Sionix {k}le kitsune{r}",
-    "item.lurdugi.sionix.desc": "Un artefacte mystérieux {k}du kitsune.",
-    "item.lurdugi.luwurius": "§c§l§o§kL§6§l§o§ku§e§l§o§kw§a§l§o§ku§3§l§o§kr§9§l§o§ki§5§l§o§ku§c§l§o§ks"
+    "item.lurdugi.sionix.desc": "Un artefacte mystérieux {k}du kitsune."
 }

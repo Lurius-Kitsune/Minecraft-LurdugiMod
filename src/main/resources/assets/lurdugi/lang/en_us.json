@@ -1,9 +1,9 @@
 {
-    "lurdugi_tab": "§e§n[DEBUG]§r LurDuGi",
+    "lurdugi_tab": "LurDuGi",
 
-    "item.lurdugi.test_block": "§e§n[DEBUG]§r Testing Block",
+    "item.lurdugi.test_block": "§e§n[TESTING]§r Testing Block",
 
-    "item.lurdugi.test_item": "§e§n[DEBUG]§r Testing Object",
+    "item.lurdugi.test_item": "§e§n[TESTING]§r Testing Object",
     "item.lurdugi.sionix_lock": "Sionix's Lock",
     "item.lurdugi.sionix": "{b}Sionix {k}the kitsune{r}",
     "item.lurdugi.sionix.desc": "A mysterious artifact of {k}the kitsune.",

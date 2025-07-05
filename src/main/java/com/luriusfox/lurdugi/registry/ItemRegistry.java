@@ -8,11 +8,10 @@ import com.luriusfox.lurdugi.LurDuGiMod;
 import com.luriusfox.lurdugi.items.LuriusItem;
 import com.luriusfox.lurdugi.items.SionixItem;
 import com.luriusfox.lurdugi.items.SionixLockItem;
-import com.luriusfox.lurdugi.items.TestItem;
 import com.luriusfox.lurdugi.registry.TabsRegistry.TabType;
+import com.luriusfox.lurdugi.test.TestItem;
 
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Item.Properties;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -21,12 +20,11 @@ public final class ItemRegistry {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, LurDuGiMod.MODID);
 
-    public static final RegistryObject<Item> TEST_ITEM = RegisterItems(TestItem.id, () -> new TestItem(), TabType.LURDUGI);
+    public static final RegistryObject<Item> TEST_ITEM = RegisterItems(TestItem.id, () -> new TestItem());
 
     public static final RegistryObject<Item> SIONIX_LOCK_ITEM = RegisterItems(SionixLockItem.id, () -> new SionixLockItem(), TabType.LURDUGI);
     public static final RegistryObject<Item> LURIUS_ITEM = RegisterItems(LuriusItem.id, () -> new LuriusItem(), TabType.LURDUGI);
     public static final RegistryObject<Item> SIONIX_ITEM = RegisterItems(SionixItem.id,  () -> new SionixItem(), TabType.LURDUGI);
-    public static final RegistryObject<Item> THOMAS_BIRD_ITEM = RegisterItems("special_bird",  () -> new Item(new Properties().setId(ITEMS.key("special_bird"))));
 
 
     public static RegistryObject<Item> RegisterItems(String _name, Supplier<? extends Item> _item) {

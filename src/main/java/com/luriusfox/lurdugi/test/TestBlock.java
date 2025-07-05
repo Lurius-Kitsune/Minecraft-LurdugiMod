@@ -1,4 +1,4 @@
-package com.luriusfox.lurdugi.blocks;
+package com.luriusfox.lurdugi.test;
 
 import com.luriusfox.lurdugi.registry.BlocksRegistry;
 

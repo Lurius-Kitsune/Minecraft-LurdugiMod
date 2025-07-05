@@ -3,8 +3,8 @@ package com.luriusfox.lurdugi.registry;
 import java.util.function.Supplier;
 
 import com.luriusfox.lurdugi.LurDuGiMod;
-import com.luriusfox.lurdugi.blocks.TestBlock;
 import com.luriusfox.lurdugi.registry.TabsRegistry.TabType;
+import com.luriusfox.lurdugi.test.TestBlock;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
@@ -34,7 +34,7 @@ public final class BlocksRegistry {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, LurDuGiMod.MODID);
 
-    public static final RegistryObject<Block> TEST_BLOCK = RegisterBlocks(TestBlock.id,  () -> new TestBlock(), new BlockItem.Properties(), TabType.LURDUGI);
+    public static final RegistryObject<Block> TEST_BLOCK = RegisterBlocks(TestBlock.id,  () -> new TestBlock(), new BlockItem.Properties());
     
 
 }

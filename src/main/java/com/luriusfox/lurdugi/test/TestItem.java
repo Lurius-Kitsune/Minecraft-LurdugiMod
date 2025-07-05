@@ -1,6 +1,7 @@
-package com.luriusfox.lurdugi.items;
+package com.luriusfox.lurdugi.test;
 
 
+import com.luriusfox.lurdugi.items.BaseItem;
 import com.luriusfox.lurdugi.registry.ItemRegistry;
 
 import net.minecraft.world.effect.MobEffectInstance;
