@@ -1,8 +1,5 @@
 package com.luriusfox.lurdugi.items;
 
-
-import com.luriusfox.lurdugi.registry.ItemRegistry;
-
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
@@ -11,14 +8,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-public class LuriusItem extends Item {
+public class LuriusItem extends BaseItem {
 
     public static final String id = "luwurius";
 
     public LuriusItem() {
-        super(new Item.Properties().stacksTo(200)
-        .food(new FoodProperties.Builder().alwaysEdible().nutrition(1).saturationModifier(0.2f).build())
-        .setId(ItemRegistry.ITEMS.key(id)));
+        super(id, new Item.Properties().stacksTo(200)
+        .food(new FoodProperties.Builder().alwaysEdible().nutrition(1).saturationModifier(0.2f).build()));
     }
 
     //apply effect on eat

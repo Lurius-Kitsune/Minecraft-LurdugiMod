@@ -11,12 +11,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-public class SionixLockItem extends Item {
+public class SionixLockItem extends BaseItem {
 
     public static final String id = "sionix_lock";
 
     public SionixLockItem() {
-        super(new Item.Properties().stacksTo(200)
+        super(id, new Item.Properties().stacksTo(200)
         .food(new FoodProperties.Builder().alwaysEdible().nutrition(1).saturationModifier(0.2f).build())
         .setId(ItemRegistry.ITEMS.key(id)));
     }
