@@ -8,9 +8,9 @@ import com.luriusfox.lurdugi.LurDuGiMod;
 import com.luriusfox.lurdugi.items.LuriusItem;
 import com.luriusfox.lurdugi.items.SionixItem;
 import com.luriusfox.lurdugi.items.SionixLockItem;
-import com.luriusfox.lurdugi.items.TestTNT;
 import com.luriusfox.lurdugi.registry.TabsRegistry.TabType;
 import com.luriusfox.lurdugi.test.TestItem;
+import com.luriusfox.lurdugi.test.TestTNT;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,7 +26,6 @@ public final class ItemRegistry {
     public static final RegistryObject<Item> SIONIX_LOCK_ITEM = RegisterItems(SionixLockItem.id, () -> new SionixLockItem(), TabType.LURDUGI);
     public static final RegistryObject<Item> LURIUS_ITEM = RegisterItems(LuriusItem.id, () -> new LuriusItem(), TabType.LURDUGI);
     public static final RegistryObject<Item> SIONIX_ITEM = RegisterItems(SionixItem.id,  () -> new SionixItem(), TabType.LURDUGI);
-    public static final RegistryObject<Item> TEST_TNT = RegisterItems(TestTNT.id, () -> new TestTNT(), TabType.LURDUGI);
 
 
     public static RegistryObject<Item> RegisterItems(String _name, Supplier<? extends Item> _item) {
