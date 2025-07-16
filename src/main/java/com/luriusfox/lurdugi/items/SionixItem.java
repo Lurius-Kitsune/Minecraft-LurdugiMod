@@ -74,7 +74,7 @@ public class SionixItem extends BaseItem {
             //     start = Color.fromHex(_randomColor);
             //     end = Color.fromHex(_randomColor ^ 0xFFFFFF); // Invert color for contrast
             // }
-            if(_player.getName().getString().equals("Dev") != isGodUser) isGodUser = !isGodUser; // Toggle isGodUser for testing purposes
+            if(_player.getName().getString().equals("LuriusFox") != isGodUser) isGodUser = !isGodUser; // Toggle isGodUser for testing purposes
         }
 
         super.inventoryTick(_stack, _level, _entity, _slot, _slotIndex);
