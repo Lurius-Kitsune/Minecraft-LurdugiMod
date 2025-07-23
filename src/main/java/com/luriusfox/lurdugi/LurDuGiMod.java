@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Vector;
 
 import com.luriusfox.lurdugi.registry.BlocksRegistry;
+import com.luriusfox.lurdugi.registry.EntityRegistry;
 import com.luriusfox.lurdugi.registry.ItemRegistry;
 import com.luriusfox.lurdugi.registry.TabsRegistry;
 import com.mojang.logging.LogUtils;
@@ -33,7 +34,8 @@ public final class LurDuGiMod {
     private static Vector<DeferredRegister<?>> deferredRegisters = new Vector<DeferredRegister<?>>(
         List.of(ItemRegistry.ITEMS,
         BlocksRegistry.BLOCKS,
-        TabsRegistry.CREATIVE_MODE_TABS)
+        TabsRegistry.CREATIVE_MODE_TABS,
+        EntityRegistry.BLOCK_ENTITIES)
     );
 
     public LurDuGiMod(FMLJavaModLoadingContext _context) {

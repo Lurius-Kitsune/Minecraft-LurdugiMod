@@ -10,7 +10,6 @@ import com.luriusfox.lurdugi.items.SionixItem;
 import com.luriusfox.lurdugi.items.SionixLockItem;
 import com.luriusfox.lurdugi.registry.TabsRegistry.TabType;
 import com.luriusfox.lurdugi.test.TestItem;
-import com.luriusfox.lurdugi.test.TestTNT;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
